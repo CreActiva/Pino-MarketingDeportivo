@@ -1,0 +1,106 @@
+#fondo1 {
+	background: #342a39;
+	color: #fff;
+}
+
+#fondo2 {
+	background-image: url(../img/basket.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding-top: 3em; 
+	padding-bottom: 3em;
+}
+
+#fondo2_5 {
+	background-image: url(../img/deportes.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 14em;
+}
+
+#fondo3 {
+	background: #1f1d1f;
+}
+
+#fondo3_5 {
+	background: #4c4a4c;
+}
+
+#fondo4 {
+	background: url(../img/mauricio3.png), #1f1d1f;
+	background-repeat: no-repeat;
+	background-size: 20em;
+	background-position: 90% 10%;
+	color: #fff;
+}
+
+#fondo5 {
+	background: #1f1d1f;
+	color: #fff;
+}
+
+
+footer {
+	background: #d5d5d4;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 5.2rem;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	color: #e19c89;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+}
+
+label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9rem;
+}
+
+#boton {
+	background: #c64925;
+	border: none;
+	width: 50%;
+}
+
+#parrafopastel {
+	color: #e19c89;
+}
+
+.h3blanco {
+	color: #fff;
+}
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+	#separador {
+		height: 20em; 
+	}
+}
+
+@media (max-width: 768px) {
+	#fondo4 {
+		background-image: none;
+	}
+}
